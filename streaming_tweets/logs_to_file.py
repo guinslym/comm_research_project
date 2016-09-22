@@ -1,3 +1,11 @@
+# -*- coding: latin-1 -*-
+__author__='Guinsly Mondésir'
+__copyrights__=['University of Ottawa']
+__version__="1.0.0"
+__status__='Production'
+__license__='GPL'
+
+
 import os
 from os import path
 import logging
