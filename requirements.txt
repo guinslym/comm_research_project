@@ -1,0 +1,32 @@
+#python3
+delorean
+oauthlib
+requests
+Pillow==2.9.0
+numpy
+scipy
+TwitterAPI
+pytest
+selenium
+wget
+twilio
+gspread
+oauth2client
+PyOpenSSL
+openpyxl
+imagehash #only on python 2 ##And it's takes time to install (4-5min)
+PyMySQL
+huey
+redis
+gevent
+tweepy
+timeago
+dateutil
+pymongo
+
+#pip install -U delorean oauthlib oauth2client
+#pip install -U requests Pillow==2.9.0 wget openpyxl
+#pip install -U numpy scipy
+#pip install -U TwitterAPI imagehash
+#pip install -U huey redis gevent
+#pip install -U PyMySQL

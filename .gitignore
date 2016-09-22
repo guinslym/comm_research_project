@@ -1,0 +1,12 @@
+*.jpg
+*.JPG
+*.jpeg
+*.gif
+*.png
+*.~*
+*.json
+/pictures
+/live_tweets
+/backup
+/totrash
+logs/*
