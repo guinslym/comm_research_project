@@ -19,8 +19,6 @@ Some files needs some credentials in order to run. `downloads.py` needs your Dro
 
 ## Contributing
 
-Feel free to fork this repo
-
 1. Fork it ( https://github.com/guinslym/comm_research_project/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
