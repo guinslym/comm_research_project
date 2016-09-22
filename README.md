@@ -22,5 +22,5 @@ Some files needs some credentials in order to run. `downloads.py` needs your Dro
 1. Fork it ( https://github.com/guinslym/comm_research_project/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+4. Push to the branch (`git push origin your-new-feature`)
+5. No need to create Pull Request
