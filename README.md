@@ -5,9 +5,9 @@ The purpose of this project is to collect Tweets mentioning a specific user.
 ## Requirements
 
 You will need to install the requirements (dependencies) in order to run the scripts
-
+```
   pip install -r requirements.txt
-
+```
 ## Usage
 
 ## Contributing
