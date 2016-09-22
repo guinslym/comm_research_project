@@ -1,6 +1,6 @@
 # Research Project in Communication
 
-The purpose of this project is to collect Tweets mentioning a specific user.
+The purpose of this project is to collect Tweets mentioning a specific user. There is two folders containing two different scripts. **streaming_tweets** is to collect the Tweets and **database_management** will create tables so that it can put each json files (tweet contents) in different tables within the database.
 
 ## Requirements
 
@@ -17,10 +17,8 @@ Some files needs some credentials in order to run. `downloads.py` needs your Dro
   python main.py
 ```
 
-
-
 ## Contributing
-
+Feel free to fork the
 1. Fork it ( https://github.com/guinslym/comm_research_project/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
