@@ -20,6 +20,8 @@ There is a PDF file that contains the diagrams (workflow) of the script. These d
 ```
   cd streaming_tweets
   python main.py
+  cd database_management
+  python sqlalchemy_insert.py
 ```
 
 ## Contributing

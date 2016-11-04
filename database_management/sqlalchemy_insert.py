@@ -204,6 +204,7 @@ def put_this_into_the_db(query, param):
 def insert_data_into_the_picture_table():
     beginning = datetime.now()
     compte = 0
+    #dumped sql file from the Picture table (check if the user have changed his image)
     with open('user_pictures.json', encoding='utf-8') as data_file:
         data = json.load(data_file)
 
