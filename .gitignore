@@ -10,3 +10,5 @@
 /backup
 /totrash
 logs/*
+/envpython2
+/envpython3
