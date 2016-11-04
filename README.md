@@ -1,6 +1,6 @@
 # Research Project in Communication
 
-The purpose of this project is to collect Tweets mentioning a specific user. There is two folders containing two different scripts. **streaming_tweets** is to collect the Tweets and **database_management** will create tables so that it can put each json files (tweet contents) in different tables within the database.
+The purpose of this project is to collect Tweets mentioning a specific user. There is two folders containing two different scripts. **streaming_tweets** is to collect the Tweets and **database_management** will create tables so that it can put each json files (tweet content) in different tables within the database.
 
 ## Requirements
 

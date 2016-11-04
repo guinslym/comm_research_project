@@ -23,6 +23,7 @@ tweepy
 timeago
 dateutil
 pymongo
+virtualenv
 
 #pip install -U delorean oauthlib oauth2client
 #pip install -U requests Pillow==2.9.0 wget openpyxl
