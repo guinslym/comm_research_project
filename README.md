@@ -1,6 +1,6 @@
 # Research Project in Communication
 
-The purpose of this project is to collect Tweets mentioning a specific user. There is two folders containing two different scripts. **streaming_tweets** is to collect the Tweets and **database_management** will create tables so that it can put each json files (tweet content) in different tables within the database.
+The purpose of this pilot project is to collect Tweets mentioning a specific user. There is two folders containing two different scripts. **streaming_tweets** is to collect the Tweets and **database_management** will create tables so that it can put each json files (tweet content) in different tables within the database.
 
 ## Requirements
 
@@ -10,7 +10,7 @@ This scrips contains in the folder **streaming_tweets** runs on Python2 because 
   source envpython2.7/bin/activate
   pip install -r requirements.txt
 ```
-Some files needs some credentials in order to run. `downloads.py` needs your Dropbox API credentials and your `email` credentials. This file also requires to create a `SQL like Database` and you must provide your connection credentials.
+Some files needs some credentials (DB or web services) in order to run. `downloads.py` needs your Dropbox API credentials and your `email` credentials. This file also requires to create a `SQL like Database` and you must provide your connection credentials.
 
 
 There is a PDF file that contains the diagrams (workflow) of the script. These diagram aims to help you understand the process.
@@ -30,4 +30,4 @@ There is a PDF file that contains the diagrams (workflow) of the script. These d
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin your-new-feature`)
-5. No need to create Pull Request
+5. No need to create Pull Request. **this repo is no longer maintained**
