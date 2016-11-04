@@ -35,13 +35,14 @@ My Credentials & Global Variables
 ===============================================
 '''
 #Dropbox
-client = dropbox.client.DropboxClient('0uajGX4uResAAAAAAAAAsKawnzA2TJYc4QweHpfURfjGyO0bfbz_G3EezBc70-n6')
+client = dropbox.client.DropboxClient('0uajGsdfX4uResAAAAAAAAAsKawnzA2TJYc4QweHpfURfjGyO0bfbz_G3EezBc70-n6')
 
 #Twitter
-credentials = {'CONSUMER_KEY':'IqFRJBXHUKTeOQQHZpEo8COWD',
-				'CONSUMER_SECRET':'S2fNP8vui6KFDp64BcO5ojBMeqLfmZFPtak3a2mIFjP0j1yqvb',
-				'ACCESS_KEY':'75557911-OdVGA3g880tC9E7pshwZ5ilwBAWOxrYSDPChmpfje',
-				'ACCESS_SECRET':'xR5GWdHbTh7GbGRDSqIYPTiUleKTmzsUfRCsC1rZeXZpS'}
+# those credentials are not the realone you will have to set your own.
+credentials = {'CONSUMER_KEY':'IqFRJBXHUKsdfTeOQQHZpEo8COWD',
+				'CONSUMER_SECRET':'S2fNPas8vui6KFDp64BcO5ojBMeqLfmZFPtak3a2mIFjP0j1yqvb',
+				'ACCESS_KEY':'75557911-OdVGsfA3g880tC9E7pshwZ5ilwBAWOxrYSDPChmpfje',
+				'ACCESS_SECRET':'xR5GWdHbTsfh7GbGRDSqIYPTiUleKTmzsUfRCsC1rZeXZpS'}
 
 ###Loggins
 log_this = set_logs()
@@ -200,6 +201,17 @@ def retrieve_tweets(tweets, TRACK_TERM):
 			      log_this.warning('sms or add a message')
 			      time.sleep(15)
 			      send_email_gmx('error connection with twitter')
+			      """
+			      #send an sms also
+			      from twilio.rest import TwilioRestClient
+			      account_sid = "{{ account_sid }}"
+			      auth_token  = "{{ auth_token }}" 
+			      client = TwilioRestClient(account_sid, auth_token)
+			      message = client.messages.create(
+			      		body="Hello from Python",
+			      		to="+1613000000", 
+			      		from_="+12345678901") # Replace with your Twilio number
+			      """
 			      time.sleep(1)
 			      a = put_this_into_the_db("INSERT INTO `warnings` (`message`, `warnings_type`) VALUES (%s, %s)", ("Erreur de connection à Twitter", 'connection'))
 			      return True

@@ -21,7 +21,7 @@ redis
 gevent
 tweepy
 timeago
-dateutil
+python-dateutil==2.5.3
 pymongo
 virtualenv
 
